@@ -1,11 +1,11 @@
 #this file will work on Linux OS, however in order to run it or test it for yourself you will need to:
 
-	# 1. change the lines which include /home/py/Desktop/knowledge_based_test/... swap 'py' with your username
-	# 2. create a directory in your desktop called: knowledge_based_test
+	# 1. change the lines which include -> /home/py/Desktop/... swap 'py' with your own username
+	# 2. create a directory in your Desktop directory called: knowledge_based_test
 	# 3. place this file inside of that particular directory
 	
-import crypt    # done! crypt.crypt; line[0:2] = salt chars e.g. for line in f: salt=line[0:2]; print salt
-import zipfile  # done! z = zipfile.ZipFile(zip name); for loop/try/except: z.extractall(zip name, pwd=password) 
+import crypt    
+import zipfile  
 import urllib
 import nmap	
 import socket	 

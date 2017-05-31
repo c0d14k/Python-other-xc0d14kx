@@ -2,7 +2,7 @@ import sqlite3
 import time
 import argparse
 #################################################################				                                                
-#                                                               #
+#this file was mades simply in order for me to learn more about sqlite3 #
 #    improvements required:					#                            
 #          ui presentation (colors/titles/lines etc)		#        
 #    	     argparse options					#                            

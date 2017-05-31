@@ -1,10 +1,16 @@
+#this file will work on Linux OS, however in order to run it or test it for yourself you will need to:
+
+	# 1. change the lines which include /home/py/Desktop/knowledge_based_test/... swap 'py' with your username
+	# 2. create a directory in your desktop called: knowledge_based_test
+	# 3. place this file inside of that particular directory
+	
 import crypt    # done! crypt.crypt; line[0:2] = salt chars e.g. for line in f: salt=line[0:2]; print salt
 import zipfile  # done! z = zipfile.ZipFile(zip name); for loop/try/except: z.extractall(zip name, pwd=password) 
-import urllib	# done! proxy = {'http': 'http://192.111.178.33:8080'}; web = urllib.urlopen('wwww.bla.com', proxies=proxy)
-import nmap	# done! nms = nmap.PortScanner; nms.scan(ip, port); state = nms[ip]['tcp'][port]['state']
-import socket	# done! try: s = socket(AF_INET, SOCK_STREAM); s.connect((ip, por)); print 'success'; except: print 'fail!' 
-import os	# done!
-import time	# done!
+import urllib
+import nmap	
+import socket	 
+import os
+import time	
 from pexpect import pxssh # done!
 
 class option_1_crypt(object):

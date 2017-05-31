@@ -3,13 +3,13 @@ import time
 import argparse
 #################################################################				                                                
 #                                                               #
-#    improvements required:					                            #
-#          ui presentation (colors/titles/lines etc)		        #
-#    	     argparse options					                            #
-#	   def Main() (the home page)				                          #
-#	   security of code (sqlite3 & string formatting)	            #
-#	   personalized database creation(def Create_Database)        #	   
-#	 							                                                #
+#    improvements required:					#                            
+#          ui presentation (colors/titles/lines etc)		#        
+#    	     argparse options					#                            
+#	   def Main() (the home page)				#                          
+#	   security of code (sqlite3 & string formatting)	#            
+#	   personalized database creation(def Create_Database)  #      	   
+#	 							#                                                
 #################################################################
 
 def Create_Database():
